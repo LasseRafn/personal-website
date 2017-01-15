@@ -1,0 +1,48 @@
+section
+	background: #fff
+	color: #000
+	display: flex
+	align-items: center
+	padding: 50px
+	min-height: 95vh
+
+	&.black
+		background: #000
+		color: #fff
+
+	h1, .section_title
+		font-family: "PT Sans", sans-serif
+		font-size: 8vh
+		margin: 0 0 1vh
+		font-weight: bold
+
+	p
+		font-family: "PT Serif", serif
+		line-height: 1.5
+		font-size: 2vh
+		margin: 0
+
+	a.button
+		font-family: "PT Sans", sans-serif
+		display: inline-block
+		text-decoration: none
+		font-weight: bold
+		margin-top: 4vh
+		font-size: 2vh
+
+		svg
+			vertical-align: -3px
+			margin-left: 8px
+
+@media all and (max-width: 500px)
+	section
+		padding: 30px
+
+		h1, .section_title
+			font-size: 7vh
+
+		p, a.button
+			font-size: 2.6vh
+
+		a.button
+			margin-top: 8vh

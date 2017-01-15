@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:700|PT+Serif:400,700");
+* {
+  box-sizing: border-box;
+  max-width: 100%; }
+
+section {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  min-height: 95vh; }
+  section.black {
+    background: #000;
+    color: #fff; }
+
+.serif {
+  font-family: "PT Serif", serif; }
+
+.serif {
+  font-family: "PT Sans", sans-serif; }
+
+/*# sourceMappingURL=app.css.map */
